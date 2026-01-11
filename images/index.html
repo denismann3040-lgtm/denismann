@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>DENISMANN – Services</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-flex">
+    <div class="brand">
+      <img src="logo1.png" alt="DENISMANN" class="logo">
+      <span>DENISMANN</span>
+    </div>
+    <div class="phone">📞 0660 520 9808</div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner container">
+    <h1>Zuverlässige Services<br>für Haus & Betrieb</h1>
+    <p>Schnell · Sauber · Professionell</p>
+    <a href="#kontakt" class="btn">Jetzt anfragen</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Unsere Leistungen</h2>
+
+  <div class="cards">
+    <div class="card">Montage & Reparatur</div>
+    <div class="card">Reinigung</div>
+    <div class="card">Entsorgung</div>
+    <div class="card">Übersiedlungen</div>
+    <div class="card">Gartenpflege</div>
+    <div class="card">PV-Reinigung</div>
+    <div class="card">Fassadenreinigung</div>
+    <div class="card">und vieles mehr …</div>
+  </div>
+</section>
+
+<section class="section dark">
+  <h2>Unsere Arbeiten</h2>
+  <div class="gallery">
+    <img src="images/arbeit1.jpeg">
+    <img src="images/arbeit2.jpeg">
+    <img src="images/arbeit3.jpeg">
+    <img src="images/arbeit4.jpeg">
+    <img src="images/arbeit5.jpeg">
+    <img src="images/arbeit6.jpeg">
+    <img src="images/arbeit7.jpeg">
+    <img src="images/arbeit8.jpeg">
+    <img src="images/arbeit9.jpeg">
+    <img src="images/arbeit10.jpeg">
+  </div>
+</section>
+
+<section class="section" id="kontakt">
+  <h2>Kontakt</h2>
+
+  <form class="contact-form"
+        action="https://formsubmit.co/denismann3040@gmail.com"
+        method="POST">
+
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_subject" value="Neue Anfrage – DENISMANN">
+    
+
+    <input type="text" name="name" placeholder="Ihr Name" required>
+    <input type="email" name="email" placeholder="E-Mail" required>
+    <input type="tel" name="telefon" placeholder="Telefon">
+    <textarea name="nachricht" placeholder="Ihre Nachricht" required></textarea>
+
+    <button type="submit" class="btn">Nachricht senden</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
